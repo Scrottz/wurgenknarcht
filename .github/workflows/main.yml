@@ -20,6 +20,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: "index.html,geschichte.html,gaestebuch.html,webring-next.html,tagebuch.html,css/,img/"
+          source: "index.html,geschichte.html,gaestebuch.html,webring-next.html,tagebuch.html,impressum.html,css/,img/"
           target: "/www/htdocs/w016db5f/wurgenknarcht.at"
           strip_components: 0
